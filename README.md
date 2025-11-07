@@ -76,3 +76,52 @@ The system analyzes  generates **job-specific interview questions** and provides
 ```bash
 git clone https://github.com/your-username/ai-mock-interview-app.git
 cd ai-mock-interview-app
+
+2️⃣ Install Dependencies
+pnpm install
+# or
+npm install
+
+3️⃣ Set Up Environment Variables
+
+Create a .env file in the root folder:
+
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_GEMINI_API_KEY=your_gemini_api_key
+
+4️⃣ Run the App
+pnpm run dev
+# or
+npm run dev
+
+Then open 👉 http://localhost:5173
+ in your browser.
+
+
+🌐 Live Demo
+
+🔗 https://mock-interview-using-ai-9y18.vercel.app/
+
+
+## 💡 Future Enhancements
+
+- 📊 **Add Real-Time Performance Analytics**  
+  Display user performance trends during and after interviews.
+
+- 🧍‍♂️ **Multi-Language Interview Support**  
+  Allow users to take mock interviews in multiple languages (e.g., English, Hindi, Tamil).
+
+- 💬 **AI Chatbot for Interview Tips**  
+  Introduce an AI-powered chat assistant to guide users with real-time feedback and preparation advice.
+
+- ☁️ **History Visualization for Performance Tracking**  
+  Provide visual graphs and insights based on previous interview sessions and improvement progress.
+
+
+
+
+
+💬 "AI can’t replace human interviews — but it can make you ready for them."
+
+
