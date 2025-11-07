@@ -74,23 +74,25 @@ The system analyzes  generates **job-specific interview questions** and provides
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/ai-mock-interview-app.git
+git clone https://github.com/ragul27092003/mock-interview--using-ai.git
 cd ai-mock-interview-app
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+```bash
 pnpm install
 # or
 npm install
 
-3️⃣ Set Up Environment Variables
-
+### 3️⃣ Set Up Environment Variables
+```bash
 Create a .env file in the root folder:
 
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_GEMINI_API_KEY=your_gemini_api_key
 
-4️⃣ Run the App
+### 4️⃣ Run the App
+```bash
 pnpm run dev
 # or
 npm run dev
